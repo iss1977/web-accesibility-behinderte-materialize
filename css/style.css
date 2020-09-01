@@ -6,9 +6,57 @@
  * Made By MaterializeCSS.com
  */
 
+ html, body{
+   box-sizing: border-box;
+ }
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+
+/*Styling the logo*/
+
+.nav-wrapper {
+  height: 5vh;
+}
+
+.nav-wrapper a{
+  height: 100%;
+  display: flex;
+}
+
+.nav-wrapper a img{
+  height: 100%;
+}
+
+
+.my-tabs-wrapper{
+  height: 5vh;
+}
+
+.my-tabs-wrapper .tab{
+  height: 90%;
+  display: flex;
+  padding-top: 5px;
+}
+
+
+.my-tabs-wrapper .tab a{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+    height: 100%;
+  
+}
+
+.my-tabs-wrapper a img{
+  color: white;
+  height: 100%;
+}
+
+
